@@ -28,11 +28,11 @@ The `ID` type alias is automatically added for all `Identifiable` types, which a
 
 ## Customizing the raw type
 
-`Identifier` values are backed by strings by default, but that can easily be customized by giving an `Identifiable` type a `RawIdentifier`:
+`Identifier` values are backed by strings by default, but that can easily be customized by giving an `Identifiable` type a `RawRepresentation`:
 
 ```swift
 struct Article: Identifiable {
-    typealias RawIdentifier = UUID
+    typealias RawRepresentation = UUID
 
     let id: ID
     let title: String
