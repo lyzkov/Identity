@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'Identity'
-  s.version          = '0.2.0'
+  s.version          = '0.2.1'
   s.summary          = '🆔 Type-safe identifiers in Swift'
 
   s.description      = <<-DESC
