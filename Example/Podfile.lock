@@ -1,0 +1,16 @@
+PODS:
+  - Identity (0.2.0)
+
+DEPENDENCIES:
+  - Identity (from `../`)
+
+EXTERNAL SOURCES:
+  Identity:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Identity: 2209ff48c0c4fd9acbf8879c45f0ca2132b624aa
+
+PODFILE CHECKSUM: 411c574708ed7ffd7dce950f7ca23bbe6b96259d
+
+COCOAPODS: 1.7.1
